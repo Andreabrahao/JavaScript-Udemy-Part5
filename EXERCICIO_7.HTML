@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio - 7</title>
+</head>
+<body>
+    <h1>Exercicio - 7</h1>
+    <script>
+
+        function verificaTipoDeDado(dado) {
+            if(typeof dado == 'string') {
+                console.log("Este dado e uma string!");
+            } else if(typeof dado == 'number') {
+                console.log("Este dado e um number!");
+            } else if(typeof dado == 'boolean') {
+                console.log("Este dado e um boolean!");
+            }
+        }
+
+       verificaTipoDeDado(true);
+       verificaTipoDeDado(28);
+       verificaTipoDeDado("Teste");
+
+    </script>
+</body>
+</html>
